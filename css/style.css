@@ -1,0 +1,17 @@
+.first .navbar-brand img {
+    display: none;
+}
+
+.first-navigation-ul {
+    padding-left: 90px;
+}
+
+.third-navigation-ul {
+    padding-left: 150px;
+}
+
+footer a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
