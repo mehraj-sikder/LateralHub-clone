@@ -1,291 +1,462 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lateral Hub</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
     <!-- fontAwesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
 
-<body>
+  <body>
     <header>
-        <!-- 1st navigation var start -->
-        <nav class="navbar navbar-expand-lg  first">
-            <div class="container me-5">
-                <a class="navbar-brand me-5" href="#"><img src="images/LH-Logo-Tagline-Small.png" alt="Bootstrap"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="first-navigation-ul navbar-nav my-lg-0 navbar-nav-scroll"
-                        style="--bs-scroll-height: 100px;">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Browse Jobs
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Browse Law Firms</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Job Alerts</a>
-                        </li>
-                    </ul>
-                </div>
+      <!-- 1st navigation var start -->
+      <nav class="navbar navbar-expand-lg first">
+        <div class="container me-5">
+          <a class="navbar-brand me-5" href="#"
+            ><img src="images/LH-Logo-Tagline-Small.png" alt="Bootstrap"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="first-navigation-ul navbar-nav my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Browse Jobs
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Browse Law Firms</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Job Alerts</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- 1st navigation var ends -->
+
+      <!-- 2nd navigation var start -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand me-5" href="#"
+            ><img src="images/LH-Logo-Tagline-Small.png" alt="Bootstrap"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-5 my-3 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Free Interview Prep</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Sucess Stories</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >About</a
+                >
+              </li>
+            </ul>
+            <div>
+              <button type="button" class="btn btn-success btn-lg mx-2">
+                For Candidates
+              </button>
+              <button type="button" class="btn btn-primary btn-lg">
+                For Law Firms
+              </button>
             </div>
-        </nav>
-        <!-- 1st navigation var ends -->
+          </div>
+        </div>
+      </nav>
+      <!-- 2nd navigation var ends -->
 
-        <!-- 2nd navigation var start -->
-        <nav class="navbar navbar-expand-lg ">
-            <div class="container-fluid">
-                <a class="navbar-brand me-5" href="#"><img src="images/LH-Logo-Tagline-Small.png" alt="Bootstrap"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="navbar-nav me-5 my-3 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Free Interview Prep</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Sucess Stories</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">About</a>
-                        </li>
-                    </ul>
-                    <div>
-                        <button type="button" class="btn btn-success btn-lg mx-2">For Candidates</button>
-                        <button type="button" class="btn btn-primary btn-lg">For Law Firms</button>
-                    </div>
-                </div>
-            </div>
-        </nav>
-        <!-- 2nd navigation var ends -->
-
-
-        <!-- 3rd navigation var start -->
-        <nav class="navbar navbar-expand-lg  first">
-            <div class="container me-5">
-                <a class="navbar-brand me-5" href="#"><img src="images/LH-Logo-Tagline-Small.png" alt="Bootstrap"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="third-navigation-ul navbar-nav my-lg-0 navbar-nav-scroll"
-                        style="--bs-scroll-height: 100px;">
-
-                        <li class="nav-item me-4">
-                            <a class="nav-link active" aria-current="page" href="#">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">FAQ</a>
-                        </li>
-                    </ul>
-
-                </div>
-            </div>
-        </nav>
+      <!-- 3rd navigation var start -->
+      <nav class="navbar navbar-expand-lg first">
+        <div class="container me-5">
+          <a class="navbar-brand me-5" href="#"
+            ><img src="images/LH-Logo-Tagline-Small.png" alt="Bootstrap"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="third-navigation-ul navbar-nav my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item me-4">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Contact</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">FAQ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <main>
+      <!-- 7 number section start  -->
 
-        <!-- 8 number section starts -->
-        <section class="my-5">
-            <div class=" text-center">
-                <div class="my-5">
-                    <h2>Start Your Lateral Search Here.</h2>
-                    <h6>Easy steps to browse and apply for jobs</h6>
-                </div>
-                <div class="row">
-                    <div class="col-4">
-                        <div>
-                            <div class="border ">
-                                <img src="images/find-150x150.png" alt="" class="my-3">
-                                <h4 class="my-2">Browse and Filter Jobs</h4>
-                                <h6>Browse job posts from the nation's best law firms. Easily filter by location,
-                                    practice group, and job level to find the job that is best for you. No log-in
-                                    required!</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div>
-                            <div class="border ">
-                                <img src="images/submit-150x150.png" alt="" class="my-3">
-                                <h4 class="my-3">Browse and Filter Jobs</h4>
-                                <h6>Browse job posts from the nation's best law firms. Easily filter by location,
-                                    practice group, and job level to find the job that is best for you. No log-in
-                                    required!</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div>
-                            <div class="border ">
-                                <img src="images/bookmark-150x150.png" alt="" class="my-4">
-                                <h4 class="my-2">Bookmark Job Posts and Set Up Alerts</h4>
-                                <h6>Create an optional account using your LinkedIn or Google login to bookmark your
-                                    favorite job posts or set up alerts for different categories of jobs.</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <section>
+        <div class="bg-primary">
+          <div class="container py-3">
+            <div class="row">
+              <div class="col-6 container">
+                <h3 class="px-5">
+                  Did you know LateralHub <br />
+                  Offer Free Interview Preapariuon?
+                </h3>
+              </div>
+              <div class="col-6">
+                <h2 class="py-3">
+                  <a href="#" class="text-white">Click here to learn more</a>
+                </h2>
+              </div>
             </div>
-        </section>
-        <!-- 8 number section ends -->
+          </div>
+        </div>
+        <div class="row g-0">
+          <div class="col-4">
+            <div class="bg-secondary-subtle">
+              <img src="images/seven-1.jpg" class="img-fluid" alt="" />
+              <h4 class="px-5 my-3 text-primary">
+                Top-tier firms currently pay an average of $60K - $125K per hire
+              </h4>
+              <h6 class="px-5 text-primary-emphasis">
+                irms can avoid these recruiting fees by hiring candidates
+                directly through Lateral Hub.
+              </h6>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="bg-secondary-subtle">
+              <img src="images/seven-2.jpg" class="img-fluid" alt="" />
+              <h4 class="px-5 my-3 text-primary">
+                "Given the price point, joining Lateral Hub is a no-brainer for
+                firms."
+              </h4>
+              <h6 class="px-5 text-primary-emphasis">
+                irms can avoid these recruiting fees by hiring candidates
+                directly through Lateral Hub.
+              </h6>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="bg-secondary-subtle">
+              <img src="images/seven-3.jpg" class="img-fluid" alt="" />
+              <h4 class="px-5 my-3 text-primary">
+                "When we save on recruiting fees, we're able to provide a higher
+                signing bonus to the candidate."
+              </h4>
+              <h6 class="px-5 text-primary-emphasis">
+                irms can avoid these recruiting fees by hiring candidates
+                directly through Lateral Hub.
+              </h6>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 7 number section ends  -->
 
-        <!-- 9 number section start  -->
+      <!-- 8 number section starts -->
+      <section class="my-5">
+        <div class="text-center">
+          <div class="my-5">
+            <h2>Start Your Lateral Search Here.</h2>
+            <h6>Easy steps to browse and apply for jobs</h6>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <div>
+                <div class="border">
+                  <img src="images/find-150x150.png" alt="" class="my-3" />
+                  <h4 class="my-2">Browse and Filter Jobs</h4>
+                  <h6>
+                    Browse job posts from the nation's best law firms. Easily
+                    filter by location, practice group, and job level to find
+                    the job that is best for you. No log-in required!
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div>
+                <div class="border">
+                  <img src="images/submit-150x150.png" alt="" class="my-3" />
+                  <h4 class="my-3">Browse and Filter Jobs</h4>
+                  <h6>
+                    Browse job posts from the nation's best law firms. Easily
+                    filter by location, practice group, and job level to find
+                    the job that is best for you. No log-in required!
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div>
+                <div class="border">
+                  <img src="images/bookmark-150x150.png" alt="" class="my-4" />
+                  <h4 class="my-2">Bookmark Job Posts and Set Up Alerts</h4>
+                  <h6>
+                    Create an optional account using your LinkedIn or Google
+                    login to bookmark your favorite job posts or set up alerts
+                    for different categories of jobs.
+                  </h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 8 number section ends -->
+
+      <!-- 9 number section start  -->
+      <section>
+        <div class="my-5">
+          <div class="row mx-2">
+            <div class="col-4 bg-warning px-5 rounded">
+              <h1>Our Mission</h1>
+              <p>
+                Making lateral moves should be easier for everyone. Firms should
+                be able to save on recruiting fees, reserving resources that can
+                make them more competitive in a tight market. <br />
+                <br />
+
+                Attorneys should be able to browse and filter jobs at
+                competitive firms without hours of research to discover top-tier
+                firms with openings. <br />
+                <br />
+
+                Enter Lateral Hub. <br />
+                <br />
+
+                We are streamlining the lateral hiring process by giving
+                attorneys direct and transparent access to openings at top-tier
+                firms. <br />
+
+                Our mission is to make the lateral hiring process more efficient
+                for top-tier firms and lateral candidates.
+              </p>
+            </div>
+            <div class="col-8">
+              <h3>From the Lateral Hub Resource Library</h3>
+              <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                  <div class="card image">
+                    <a href="#"><img src="images/hero/A (1).jpeg" alt="" /></a>
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <a href="#">When your cover letter can hurt you</a>
+                      </h5>
+                      <p class="card-text">
+                        This is a longer card with supporting text below as a
+                        natural lead-in to additional content. This content is a
+                        little bit longer.
+                      </p>
+                      <a href="#" class="text-black">Read More >></a>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">june 23, 2023</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card image">
+                    <img
+                      src="images/hero/A (1).jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <a href="#">When your cover letter can hurt you</a>
+                      </h5>
+                      <p class="card-text">
+                        This is a longer card with supporting text below as a
+                        natural lead-in to additional content. This content is a
+                        little bit longer.
+                      </p>
+                      <a href="#" class="text-black">Read More >></a>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">june 23, 2023</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card image">
+                    <img
+                      src="images/hero/A (2).jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <a href="#">When your cover letter can hurt you</a>
+                      </h5>
+                      <p class="card-text">
+                        This is a longer card with supporting text below as a
+                        natural lead-in to additional content. This content is a
+                        little bit longer.
+                      </p>
+                      <a href="#" class="text-black">Read More >></a>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">june 23, 2023</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card image">
+                    <img
+                      src="images/hero/A (3).jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <a href="#">When your cover letter can hurt you</a>
+                      </h5>
+                      <p class="card-text">
+                        This is a longer card with supporting text below as a
+                        natural lead-in to additional content. This content is a
+                        little bit longer.
+                      </p>
+                      <a href="#" class="text-black">Read More >></a>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">june 23, 2023</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 9 number section ends  -->
+
+      <footer>
         <section>
-            <div class="my-5">
-                <div class="row mx-2">
-                <div class="col-4 bg-warning px-5 rounded">
-                        <h1>Our Mission </h1>
-                        <p>
-                            Making lateral moves should be easier for everyone.
-                            Firms should be able to save on recruiting fees, reserving resources that can make them more
-                            competitive in a tight market. <br> <br> 
-
-                            Attorneys should be able to browse and filter jobs at competitive firms without hours of
-                            research to discover top-tier firms with openings. <br> <br>
-
-                            Enter Lateral Hub. <br> <br>
-
-                            We are streamlining the lateral hiring process by giving attorneys direct and transparent
-                            access to openings at top-tier firms. <br>
-
-                            Our mission is to make the lateral hiring process more efficient for top-tier firms and
-                            lateral candidates. 
-                        </p>
-                    </div>
-                    <div class="col-8">
-                    <h3>
-                        From the Lateral Hub Resource Library
-                        </h3>
-                        <div class="row row-cols-1 row-cols-md-2 g-4">
-                            <div class="col">
-                              <div class="card image">
-                                    <a href="#"><img src="images/hero/A (1).jpeg" alt=""></a>
-                                <div class="card-body">
-                                  <h5 class="card-title"><a href="#">When your cover letter can hurt you</a></h5>
-                                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p><a href="#" class="text-black">Read More >></a>
-                                </div>
-                                <div class="card-footer">
-                                    <small class="text-body-secondary">june 23, 2023</small>
-                                  </div>
-                              </div>
-                            </div>
-                            <div class="col">
-                              <div class="card image">
-                                <img src="images/hero/A (1).jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title"><a href="#">When your cover letter can hurt you</a></h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p><a href="#" class="text-black">Read More >></a>
-                                  </div>
-                                <div class="card-footer">
-                                    <small class="text-body-secondary">june 23, 2023</small>
-                                  </div>
-                              </div>
-                            </div>
-                            <div class="col">
-                              <div class="card image">
-                                <img src="images/hero/A (2).jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title"><a href="#">When your cover letter can hurt you</a></h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p><a href="#" class="text-black">Read More >></a>
-                                  </div>
-                                <div class="card-footer">
-                                    <small class="text-body-secondary">june 23, 2023</small>
-                                  </div>
-                              </div>
-                            </div>
-                            <div class="col">
-                              <div class="card image">
-                                <img src="images/hero/A (3).jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title"><a href="#">When your cover letter can hurt you</a></h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p><a href="#" class="text-black">Read More >></a>
-                                  </div>
-                                <div class="card-footer">
-                                    <small class="text-body-secondary">june 23, 2023</small>
-                                  </div>
-                              </div>
-                            </div>
-                          </div>
-                    </div>
-                </div>
+          <div class="row">
+            <div class="col-3">
+              <div class="">
+                <img
+                  src="images/LH-Logo-Tagline-Small.png"
+                  alt=""
+                  class="my-1"
+                />
+                <h6 class="my-3">Founded in NYC</h6>
+                <h6>212-899-5201</h6>
+              </div>
             </div>
+            <div class="col-3">
+              <div>
+                <h5>Candidates</h5>
+                <p><a href="#">Browse jobs</a></p>
+                <p><a href="#">Candidate Dashoard</a></p>
+                <p><a href="#">job Alert</a></p>
+                <p><a href="#">My Bookmarks</a></p>
+              </div>
+            </div>
+            <div class="col-3">
+              <div>
+                <h5>Law Firms</h5>
+                <p><a href="#">For Law Firms</a></p>
+              </div>
+            </div>
+            <div class="col-3">
+              <div>
+                <h5>About Us</h5>
+                <p><a href="#">Contact Us</a></p>
+                <p><a href="#">About Us</a></p>
+                <p><a href="#">Terms</a></p>
+                <p><a href="#">Privacy Policy</a></p>
+                <p><a href="#">FAQ</a></p>
+              </div>
+            </div>
+          </div>
         </section>
-        <!-- 9 number section ends  -->
 
-        <footer>
-            <section>
-                <div class="row">
-                    <div class="col-3">
-                        <div class="">
-                            <img src="images/LH-Logo-Tagline-Small.png" alt="" class="my-1">
-                            <h6 class="my-3">Founded in NYC</h6>
-                            <h6>212-899-5201</h6>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div>
-                            <h5>Candidates</h5>
-                            <p><a href="#">Browse jobs</a></p>
-                            <p><a href="#">Candidate Dashoard</a></p>
-                            <p><a href="#">job Alert</a></p>
-                            <p><a href="#">My Bookmarks</a></p>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div>
-                            <h5>Law Firms</h5>
-                            <p><a href="#">For Law Firms</a></p>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div>
-                            <h5>About Us</h5>
-                            <p><a href="#">Contact Us</a></p>
-                            <p><a href="#">About Us</a></p>
-                            <p><a href="#">Terms</a></p>
-                            <p><a href="#">Privacy Policy</a></p>
-                            <p><a href="#">FAQ</a></p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section>
-                <hr>
-                <div class="text-end">
-                    <i class="fa-brands fa-twitter mx-1"></i>
-                    <i class="fa-brands fa-instagram mx-4"></i>
-                    <i class="fa-brands fa-linkedin"></i>
-                </div>
-            </section>
-        </footer>
+        <section>
+          <hr />
+          <div class="text-end">
+            <i class="fa-brands fa-twitter mx-1"></i>
+            <i class="fa-brands fa-instagram mx-4"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </section>
+      </footer>
     </main>
 
     <script src="js/bootstrap.bundle.min.js"></script>
-</body>
-
+  </body>
 </html>
