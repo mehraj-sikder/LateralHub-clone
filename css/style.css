@@ -1,3 +1,45 @@
+/* navigation underline  */
+.underline a{
+    position: relative;
+}
+.underline a:before{
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    height: 3px;
+    width: 100%;
+    background: #4070f4;
+    border-radius: 50px;
+    transition: transform 0.2s linear;
+    transform: scale(0);
+    } 
+ .underline a:hover:before{
+    
+    transform: scaleX(1);
+    }
+
+
+
+/* navigation underline  */
+
+/* 2nd number section start  */
+
+.bg-image{
+    background-image: url("../images/2nd-bg.jpg"); 
+  height: 500px; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; container */
+}
+/* 2nd number section start  */
+
+.borders{
+    border-right: 2px solid green;
+   margin-top: 10px;
+   margin-bottom:10px;
+}
+
+
 .first .navbar-brand img {
     display: none;
 }
@@ -11,10 +53,47 @@
 }
 
 footer a {
+    position: relative;
     list-style: none;
     text-decoration: none;
     color: black;
 }
+
+footer a::before{
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    height: 6px;
+    width: 100%;
+    background: #4070f4;
+    transition: transform 0.2s linear;
+    border-radius: 50px;
+    transform: scale(0);
+}
+
+footer a:hover::before{
+    transform: scaleX(1);
+}
+
+
+/* carousal */
+
+
+.carousel-control-prev-icon{
+    background-color: dark;
+}
+/* carousal */
+
+/* 4 number section start  */
+
+
+.f-number-anchor a{
+text-decoration: none;
+color: black;
+}
+
+/* 4 number section start  */
+
 
 /* 9 number section  */
 .image img{
@@ -24,3 +103,15 @@ footer a {
 .image a{
     text-decoration: none;
 }
+
+
+/* 8 number section start  */
+
+
+.bor-hov:hover{
+    border: 1px solid black;
+
+
+
+}
+/* 8 number section ends  */
